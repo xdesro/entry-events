@@ -1,0 +1,40 @@
+{
+    "name": "jasonbradley/entry-events",
+    "description": "A plugin which triggers on entry events",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "entryevents"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Bradley",
+            "homepage": "jasonbradley.co"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "jasonbradley\\entryevents\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "EntryEvents",
+        "handle": "entry-events",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "jasonbradley\\entryevents\\EntryEvents"
+    }
+}
